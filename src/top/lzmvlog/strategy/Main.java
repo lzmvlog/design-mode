@@ -9,9 +9,11 @@ import java.util.Arrays;
 public class Main {
 
     public static void main(String[] args) {
-        int[] a = {9, 2, 3, 5, 7, 1, 4};
-        Sorter sorter = new Sorter();
-        sorter.sort(a);
-        System.out.println(Arrays.toString(a));
+//        int[] a = {9, 2, 3, 5, 7, 1, 4};
+//        Sorter sorter = new Sorter();
+//        sorter.sort(a);
+        Dog[] dogs = {new Dog(3),new Dog(1),new Dog(2)};
+        CompareSorter.sort(dogs);
+        System.out.println(Arrays.toString(dogs));
     }
 }
