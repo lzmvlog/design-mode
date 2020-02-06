@@ -1,4 +1,4 @@
-package top.lzmvlog.singleton;
+package top.shaojie.singleton;
 
 /**
  * @author ShaoJie

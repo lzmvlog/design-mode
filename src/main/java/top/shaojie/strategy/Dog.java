@@ -1,4 +1,4 @@
-package top.lzmvlog.strategy;
+package top.shaojie.strategy;
 
 /**
  * @author： ShaoJie
@@ -22,7 +22,6 @@ public class Dog implements Compare {
         return  "大小：" + this.food ;
     }
 
-    @Override
     public Integer compareTo(Object o) {
         Dog d = (Dog) o;
         if(this.food < d.food) return -1;

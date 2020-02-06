@@ -1,4 +1,4 @@
-package top.lzmvlog.thread;
+package top.shaojie.thread;
 
 import java.util.ArrayList;
 import java.util.List;
