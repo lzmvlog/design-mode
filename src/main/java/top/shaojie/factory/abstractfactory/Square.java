@@ -1,13 +1,14 @@
-package top.shaojie.factory.simple;
+package top.shaojie.factory.abstractfactory;
 
 /**
  * @author： ShaoJie
  * @data： 2020年02月06日 20:56
  * @Description： 方形
  */
-public class Square implements Shape {
+public class Square extends Shape {
 
-    public void draw() {
+    public Shape draw() {
         System.out.println("Inside Square::draw() method.");
+        return new Square();
     }
 }

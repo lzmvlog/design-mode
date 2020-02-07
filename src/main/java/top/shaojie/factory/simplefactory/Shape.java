@@ -1,4 +1,4 @@
-package top.shaojie.factory.simple;
+package top.shaojie.factory.simplefactory;
 
 /**
  * @author： ShaoJie
