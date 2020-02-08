@@ -36,7 +36,7 @@ public abstract class AbstractLogger {
         if (this.level <= level) {
             write(message);
         }
-        // 如果下一个 日志级别记录器 不为空 则 在调用一次
+        // 如果下一个 日志级别记录器 不为空 则 在调用一次 不加判断可能会出现空指针
         if (nextLogger != null) {
             nextLogger.logMessage(level, message);
         }
